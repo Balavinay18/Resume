@@ -95,14 +95,27 @@ position: relative;
 .contactInfo ul li.icon
 {
     display: inline-block;
-    width: 30px;
-    font-size: 10px;
+    width: 30em;
+    font-size: 18em;
     color: #03a9f4;
 }
+.contactInfo ul li span
+{
+  color: #fff;  
+  font-weight: 300;
+}
+
+
+
+
+
+ 
 .container .right_side
 {
     position: relative;
     background:#fff;
-    padding: 40px;
+    padding: 40px;  
 }
-
+.fa-mobile, .fa-envelope, .fa-linkedin, .fa-map-marker{
+    color: #03a9f4;
+}
