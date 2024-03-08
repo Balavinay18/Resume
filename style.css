@@ -132,7 +132,7 @@ position: relative;
     color: #fff;
     font-weight: 300;
 }
-.contactInfo .lang .percent
+.contactInfo .languages .percent
 {
     position: relative;
     width: 100%;
@@ -141,23 +141,60 @@ position: relative;
     display: block;
     margin-top: 5px;
 }
-.contactInfo .lang .percent div
+.contactInfo .languages .percent .div
 {
     position: absolute;
     top: 0;
     left: 0;
+    width: 90%;
     height: 100%;
     background: #03a9f4;
-}
-
-
-
-
- 
+} 
 .container .right_side
 {
     position: relative;
     background:#fff;
     padding: 40px;  
 }
+.about  
+{
+    margin-bottom: 50px;
+}
+.about :last-child
+{
+margin-bottom: 0;
+}
+.title2
+{
+    color:black ;
+    text-align: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p
+{
+    color: #333;
+}
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;  
+}
+.about .box .year
+{
+ min-width: 150px;   
+}
+.about .box .year h5
+{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+.about .box .year h4
+{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
 
+}
